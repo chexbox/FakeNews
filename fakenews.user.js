@@ -1,11 +1,69 @@
 // ==UserScript==
 // @name         Fake News
 // @namespace    http://tampermonkey.net/
-// @version      0.1
+// @version      0.2
 // @description  Help determine if news is true.
 // @author       chexbox
-// @match        *.huffingtonpost.com/*
-// @match        https://*.cnn.com/*
+@match *.cnn.com/* 
+@match *.huffingtonpost.com/*
+@match *.time.com/* 
+@match *.npr.org/* 
+@match *.slate.com/* 
+@match *.newsweek.com/* 
+@match *.usnews.com/* 
+@match *.politico.com/* 
+@match *.salon.com/* 
+@match *.indymedia.org/*
+@match *.democraticunderground.com/*
+@match *.theatlantic.com/*
+@match *.villagevoice.com/*
+@match *.dailykos.com/*
+@match *.eschatonblog.com/*
+@match *.newyorker.com/*
+@match *.thedailybeast.com/*
+@match *.alternet.org/*
+@match *.commondreams.org/*
+@match *.crooksandliars.com/*
+@match *.buzzflash.com/*
+@match *.talkingpointsmemo.com/*
+@match *.moveon.org/*
+@match *.motherjones.com/*
+@match *.amnesty.org/*
+@match *.counterpunch.org/*
+@match *.thenation.com/*
+@match *.antiwar.com/*
+@match *.thinkprogress.org/*
+@match *.rawstory.com/*
+@match *.tnr.com/*
+@match *.plannedparenthood.com/*
+// @match *.informationclearinghouse.info/*
+// @match *.whatreallyhappened.com/*
+// @match *.opednews.com/*
+// @match *.bad.eserver.org/*
+// @match *.politicalwire.com/*
+// @match *.wsws.org/* 
+// @match *.aclu.org/*
+// @match *.cidh.oas.org/*
+// @match *.mediamatters.org/*
+// @match *.feministing.com/*
+// @match *.truthout.org/*
+// @match *.drudge.com/*
+// @match *.prospect.org/*
+// @match *.harpers.org/*
+// @match *.firedoglake.com/*
+// @match *.truthdig.com/*
+// @match *.wonkette.com/*
+// @match *.americablog.com/*
+// @match *.fivethirtyeight.com/*
+// @match *.washingtonmonthly.com/*
+// @match *.michaelmoore.com/*
+// @match *.bartcop.com/*
+// @match *.airamerica.com/*
+// @match *.oliverwillis.com/*
+// @match *.mydd.com/*
+// @match *.americanprogress.org/* 
+// @match *.brookings.edu/* 
+// @match *.zmag.org/* 
 // @match        *.msnbc.com/*
 // @match        *.cnbc.com/*
 // @match        *.nbc.com/*
